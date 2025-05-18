@@ -19,7 +19,7 @@ public class Main implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-
+// los dias de semana
         //Categoria categoria = new Categoria("Hogar", "Categoria Hogar");
         //categoriaRepositorio.save(categoria);
     }
