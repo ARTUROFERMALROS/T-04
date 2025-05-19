@@ -40,7 +40,7 @@ public class Vehiculo {
     }
 
     public String getPlaca() {
-        return plaaca;
+        return placa;
     }
 
     public void setPlaca(String placa) {
