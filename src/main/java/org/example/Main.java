@@ -14,6 +14,9 @@ public class Main implements CommandLineRunner {
     @Autowired
     private CategoriaRepositorio categoriaRepositorio;
 
+    @Autowired
+    private VehiculoRepositorio vehiculoRepositorio;
+
     public static void main(String[] args) {
 
         SpringApplication.run(Main.class, args);
@@ -24,6 +27,7 @@ public class Main implements CommandLineRunner {
 
         Categoria categoria = new Categoria("Hogar", "Categoria Hogar");
         categoriaRepositorio.save(categoria);
-        Vehiculo vehiculo = new Vehiculo(Integer Id, String placa, String modelo)
-    }
+        Vehiculo vehiculo = new Vehiculo(1, "ABC1234", "TOYOTA COROLA")
+        vehiculoRepositorio.save(vehiculo);
+            }
 }
