@@ -3,6 +3,7 @@ package org.example;
 import org.example.entidades.Categoria;
 import org.example.entidades.Vehiculo;
 import org.example.repositorio.CategoriaRepositorio;
+import org.example.repositorio.VehiculoRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
