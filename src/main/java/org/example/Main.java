@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.entidades.Categoria;
+import org.example.entidades.Vehiculo;
 import org.example.repositorio.CategoriaRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -23,5 +24,6 @@ public class Main implements CommandLineRunner {
 
         Categoria categoria = new Categoria("Hogar", "Categoria Hogar");
         categoriaRepositorio.save(categoria);
+        Vehiculo vehiculo = new Vehiculo(Integer Id, String placa, String modelo)
     }
 }
