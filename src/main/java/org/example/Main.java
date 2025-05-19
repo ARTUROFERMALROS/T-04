@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.entidades.Categoria;
 import org.example.repositorio.CategoriaRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -19,8 +20,8 @@ public class Main implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-// los dias de semana
-        //Categoria categoria = new Categoria("Hogar", "Categoria Hogar");
-        //categoriaRepositorio.save(categoria);
+
+        Categoria categoria = new Categoria("Hogar", "Categoria Hogar");
+        categoriaRepositorio.save(categoria);
     }
 }

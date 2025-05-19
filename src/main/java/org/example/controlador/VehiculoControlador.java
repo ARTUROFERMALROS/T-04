@@ -1,7 +1,6 @@
 package org.example.controlador;
 
-
-import org.example.entidades.Categoria;
+import org.example.entidades.Vehiculo;
 import org.example.servicio.CategoriaServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
